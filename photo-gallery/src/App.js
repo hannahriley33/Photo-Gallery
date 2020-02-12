@@ -9,7 +9,7 @@ import ImageList from './ImageList.js'
 function App() {
   return (
   
-      
+      <p>hi</p>
      <ImageList images={images}/>
     
   );
