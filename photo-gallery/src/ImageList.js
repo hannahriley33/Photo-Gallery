@@ -6,11 +6,12 @@ import ImageCardItem from './ImageItem.js'
 
 export default class ImageList extends Component {
     render() {
-        const DisplayArray = this.props.images
+        const displayArray = this.props.images
+        console.log(displayArray)
         return (
             <div>
 
-            {DisplayArray.map((object) => {
+            {displayArray.map((object) => {
             return <ImageCardItem animals={object}/>
          })}
             </div>
